@@ -1,0 +1,50 @@
+#container {
+    border: blue;
+    border-style: dashed;
+    border-width: 2px;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+
+}
+.card {
+    width: 300px;
+    height: 150px;
+    justify-items: center;
+    border: #000;
+    border-style: solid;
+    border-width: 1px;
+}
+#form {
+    width: 200px;
+    margin: auto;
+    border: black;
+    border-style: groove;
+    border-width: 1px;
+    box-shadow: 10px 5px 5px gray;
+    display: grid;
+    justify-items: center;
+}
+
+#form h1 {
+    animation: auto-color  2s infinite;
+}
+#name {
+    text-transform: capitalize;
+}
+
+@keyframes auto-color {
+    0%{color: blueviolet;}
+    50%{color: chartreuse;}
+    75%{color: yellow;}
+    100%{color: red;}
+}
+.formMessage {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.formMessageError {
+    color: #cc3333;
+    text-transform: capitalize;
+}

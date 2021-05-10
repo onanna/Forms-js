@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          Detail Card  
+        </title>
+        <link rel="stylesheet" href="./card.css">
+    </head>
+    <body>
+            <form name="myForm" id="form" >
+                <h1>Basic Info</h1>
+                <div class="formMessage" id="error"></div>
+                    <input type="text" name="name" autofocus placeholder="Fullname">
+               
+                
+                    <input type="text" name="email" autofocus onkeypress="return event.charCode != 32" placeholder="Email">
+                
+                
+                    <input type="tel" name="Phone" placeholder="Phone Number">
+                
+                <button id="btn" type="submit">Continue</button>
+                
+            </form>
+            <script src="./card.js"></script>
+        <div id="container" >
+
+        </div>
+        
+    </body>
+</html>
