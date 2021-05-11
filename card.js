@@ -42,7 +42,7 @@ document.addEventListener("submit", e =>{
         return;
     }
     if(!/^[0-9]{10}$/.test(phone) && phone.length !== 10){
-        setFormMessage(login, "Phone Number be 10 digits" )
+        setFormMessage(login, "Phone Number must be 10 digits" )
         error.style.display = "contents";
         return;
     }else{
