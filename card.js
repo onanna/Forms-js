@@ -11,7 +11,15 @@ function setFormMessage(formElement, message) {
     messageElement.classList.add("formMessageError");
 }
 
-
+$(document).ready(function(){
+    $('.carousel').carousel({
+        indicators: true
+    });
+    // uncomment code below to see what it does then refresh
+    // setInterval(function(){
+    //     $('.carousel').carousel('next');
+    // }, 2000);
+});
 
 //below we are adding an event listener like the name implies we want to do something when a form is submitted 
 document.addEventListener("submit", e =>{
